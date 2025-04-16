@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b388ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stemGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#388E3C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66BB6A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(100,100)">
+    <!-- Стебелек -->
+    <path d="M-45,0 C-65,10 -75,20 -85,30 C-95,40 -100,50 -105,60" 
+          stroke="url(#stemGradient)" 
+          stroke-width="4" 
+          fill="none"/>
+    <!-- Листики -->
+    <path d="M-70,25 C-65,30 -60,35 -65,40 C-70,45 -75,40 -80,35" 
+          fill="url(#stemGradient)"/>
+    <path d="M-90,45 C-85,50 -80,55 -85,60 C-90,65 -95,60 -100,55" 
+          fill="url(#stemGradient)"/>
+    <!-- Цветок -->
+    <circle cx="0" cy="0" r="18" fill="url(#purpleGradient)"/>
+    <path d="M0,-45 C12,-35 25,-35 35,-45 C35,-35 45,-25 45,0 C45,25 35,35 35,45 C25,35 12,35 0,45 C-12,35 -25,35 -35,45 C-35,35 -45,25 -45,0 C-45,-25 -35,-35 -35,-45 C-25,-35 -12,-35 0,-45" 
+          fill="url(#purpleGradient)" 
+          transform="rotate(0)"/>
+    <path d="M0,-45 C12,-35 25,-35 35,-45 C35,-35 45,-25 45,0 C45,25 35,35 35,45 C25,35 12,35 0,45 C-12,35 -25,35 -35,45 C-35,35 -45,25 -45,0 C-45,-25 -35,-35 -35,-45 C-25,-35 -12,-35 0,-45" 
+          fill="url(#purpleGradient)" 
+          transform="rotate(45)"/>
+    <path d="M0,-45 C12,-35 25,-35 35,-45 C35,-35 45,-25 45,0 C45,25 35,35 35,45 C25,35 12,35 0,45 C-12,35 -25,35 -35,45 C-35,35 -45,25 -45,0 C-45,-25 -35,-35 -35,-45 C-25,-35 -12,-35 0,-45" 
+          fill="url(#purpleGradient)" 
+          transform="rotate(90)"/>
+    <path d="M0,-45 C12,-35 25,-35 35,-45 C35,-35 45,-25 45,0 C45,25 35,35 35,45 C25,35 12,35 0,45 C-12,35 -25,35 -35,45 C-35,35 -45,25 -45,0 C-45,-25 -35,-35 -35,-45 C-25,-35 -12,-35 0,-45" 
+          fill="url(#purpleGradient)" 
+          transform="rotate(135)"/>
+  </g>
+</svg> 
